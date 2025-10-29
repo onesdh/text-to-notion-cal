@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-openai
+langchain-ollama
+langgraph
+
+pydantic
+python-dotenv
+python-dateutil
+requests
+pytz
+
+notion-client
+
+mcp
