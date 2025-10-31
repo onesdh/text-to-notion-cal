@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv
+venv/
+ENV/
+env/
+
+# IDE configuration files
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Output directories
+1_week_output/
+2_week_output/
+3_week_output/

@@ -9,7 +9,7 @@ from datetime import datetime
 
 def set_graph_state():
     workflow = StateGraph(GraphState)
-    current_date = datetime.now().strftime("%Y-%m-%d")
+    current_date = datetime.now().strftime("%Y-%m-%d (%A)")
     prompts = {
         "extract_event": f"""
         Today's date is {current_date}.
@@ -20,7 +20,8 @@ Each EventData object must include a 'title', 'start' (in ISO 8601 format).
 If an end time is not explicitly mentioned but a duration is implied, infer the end time.
 If no specific date is mentioned, assume the event is for the nearest future date that makes sense.
 
-Text: {{text}}"""
+Text: {{text}}
+"""
     
     }
     # 노드 추가
