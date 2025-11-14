@@ -21,8 +21,3 @@ env/
 build/
 dist/
 *.egg-info/
-
-# Output directories
-1_week_output/
-2_week_output/
-3_week_output/
